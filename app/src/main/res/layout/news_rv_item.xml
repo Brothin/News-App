@@ -41,8 +41,6 @@
             android:padding="3dp"
             android:id="@+id/idTVSubtitle"/>
 
-
-
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

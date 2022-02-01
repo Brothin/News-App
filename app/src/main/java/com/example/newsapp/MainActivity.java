@@ -47,10 +47,10 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
 
     private void getCategories(){
         categoryRVModalArrayList.add(new CategoryRVModal("All","https://images7.alphacoders.com/865/thumb-350-865098.jpg"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Technology","https://wallpaperaccess.com/full/249943.jpg"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Science","https://images5.alphacoders.com/110/thumb-1920-1107096.jpg"));
-        categoryRVModalArrayList.add(new CategoryRVModal("Sports","https://newsonair.com/wp-content/uploads/2022/01/20-jan-2022-1068x601.jpg"));
         categoryRVModalArrayList.add(new CategoryRVModal("General","https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Science","https://images5.alphacoders.com/110/thumb-1920-1107096.jpg"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Technology","https://wallpaperaccess.com/full/249943.jpg"));
+        categoryRVModalArrayList.add(new CategoryRVModal("Sports","https://newsonair.com/wp-content/uploads/2022/01/20-jan-2022-1068x601.jpg"));
         categoryRVModalArrayList.add(new CategoryRVModal("Business","https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzaW5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"));
         categoryRVModalArrayList.add(new CategoryRVModal("Entertainment","https://wallpaperaccess.com/full/2222747.jpg"));
         categoryRVModalArrayList.add(new CategoryRVModal("Health","https://wallpapercave.com/wp/wp2219683.jpg"));
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
 
             @Override
             public void onFailure(Call<NewsModal> call, Throwable t) {
-                Toast.makeText(MainActivity.this, "Failed to get news", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Failed to get the news", Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -30,7 +30,6 @@
             android:padding="3dp"
             android:id="@+id/idTVCategory"/>
 
-
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
