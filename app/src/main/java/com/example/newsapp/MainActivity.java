@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
     private ArrayList<Articles> articlesArrayList;
     private ArrayList<CategoryRVModal> categoryRVModalArrayList;
     private CategoryRVAdapter categoryRVAdapter;
-
     private NewsRVAdapter newsRVAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
